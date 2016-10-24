@@ -1,0 +1,11 @@
+/Users/mysterymeat/.rbenv/versions/2.2.5/bin/ruby -r ./siteconf20161023-15770-18w462k.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20161023-15770-akhcg5
